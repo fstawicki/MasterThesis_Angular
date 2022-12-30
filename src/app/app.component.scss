@@ -1,0 +1,85 @@
+.app{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container{
+    background-color:#363940;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 1rem;
+  }
+  
+  .icon{
+    width: 100%;
+    height: 200px;
+    background-image: url('../assets/angularicon.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    margin: 2rem 0;
+  }
+  
+  h1{
+    color: #d31b43;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .render_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    .btn{
+      width: 24%;
+    }
+  }
+  
+  .line{
+    margin-top: 1.5rem;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  ul{
+    list-style: none;
+    text-align: left;
+    
+    margin: 1rem 0;
+  
+    li{
+      background-color: #d31b43;
+      font-size: 0.85rem;
+      text-align: center;
+      color: white;
+      padding: 1rem;
+      margin: 0.5rem 0;
+    }
+  }
+  
+  .btn{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    background-color: #d31b43;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+  
+    &:hover{
+      background-color: #d31b43;
+    }
+    
+  }
