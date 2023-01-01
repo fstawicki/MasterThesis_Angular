@@ -13,6 +13,7 @@
     <button class="btn" (click)="deleteElements()">Delete Elements</button>
     <div class="line" ></div>
     <ul class='list'>
+      <li *ngFor="let element of array1; index as i">{{array1[i]}}</li>
     </ul>
   </div>
 </div>
